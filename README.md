@@ -1,4 +1,4 @@
-# Dual Pipeline Growth Execution System — Marvel Moses
+# Dual Pipeline Growth Execution System — Caleb Marvel
 
 **Operator:** Digital Marketing Strategist / Media Buyer / Social Media Manager, Owerri, Nigeria (100% remote-capable)
 **Mandate:** (1) 1,000 high-ticket global clients for your agency services. (2) A high-paying, 100% remote Growth Marketing / Media Buying role at a global company.

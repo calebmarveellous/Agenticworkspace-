@@ -22,7 +22,7 @@ I've applied this exact approach before — at [Client Name], I [specific action
 I'd welcome the chance to walk through exactly how I'd approach [Company]'s first 90 days.
 
 Best,
-Marvel Moses
+Caleb Marvel
 ```
 
 ---
@@ -45,7 +45,7 @@ Given [Company]'s focus on [specific JD detail], I'd bring that same execution a
 Happy to share a full campaign teardown in an interview.
 
 Best,
-Marvel Moses
+Caleb Marvel
 ```
 
 ---
@@ -66,7 +66,7 @@ I've done this before: at Suncious Foods, I grew [platform] from [X] to [Y] foll
 Would welcome a conversation about [Company]'s content roadmap.
 
 Best,
-Marvel Moses
+Caleb Marvel
 ```
 
 ---
@@ -85,7 +85,7 @@ Growing a two-sided marketplace is a different problem than growing a DTC brand 
 I've solved this exact problem before: at Zonia Hub, an agricultural B2B marketplace, I built lead-gen funnels and GA4/HubSpot attribution that improved lead quality on both sides of the platform. [Specific action/result].
 
 Best,
-Marvel Moses
+Caleb Marvel
 ```
 
 ---
