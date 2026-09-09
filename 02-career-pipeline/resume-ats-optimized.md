@@ -7,15 +7,15 @@ Format notes: plain text/simple formatting only (no tables, text boxes, or graph
 ---
 
 ## CHINWENDU MARVELLOUS AJAEGBU-CALEB
-*Professionally known as Caleb Marvel*
+*Also known as Caleb Marvel*
 Growth Marketer | Media Buyer | Paid Social & Performance Marketing
 Owerri, Nigeria · Remote-first, distributed-team ready · [email] · [LinkedIn] · [Portfolio URL]
 
 **Summary**
-Direct-response growth marketer and media buyer with hands-on experience running paid acquisition, social media growth, and full-funnel value-ladder builds across e-commerce, FMCG, fintech, and B2B marketplace verticals. Built and scaled Meta/Google/TikTok ad campaigns, cut CAC, and grew organic social channels using data-backed, conversion-first strategy (GA4, Looker Studio, HubSpot CRM). Comfortable owning a channel end-to-end: strategy, creative brief, media buy, analytics, iteration.
+Direct-response growth marketer and media buyer with hands-on experience running paid acquisition, multi-platform social media management, and full-funnel value-ladder builds across e-commerce, FMCG, fintech, and B2B marketplace verticals. Manage and grow brand presence across Facebook, Instagram, YouTube, TikTok, LinkedIn, Snapchat, Telegram, and X (Twitter) — driving follower growth, brand awareness, monetization, and social-to-sales conversion. Built and scaled Meta/Google/TikTok ad campaigns, cut CAC, and grew organic social channels using data-backed, conversion-first strategy (GA4, Looker Studio, HubSpot CRM). Comfortable owning a channel end-to-end: strategy, creative brief, media buy, analytics, iteration.
 
 **Core Skills** *(mirror exact JD phrasing here before each submission)*
-Paid Social (Meta Ads Manager) · Google Ads · TikTok Ads · Performance Marketing · Full-Funnel Strategy · Media Buying · Social Media Management · GA4 · Looker Studio · Power BI · HubSpot CRM · Mailchimp · Shopify · Unbounce · ClickFunnels · A/B Testing · CRO · Direct-Response Copywriting · Value-Ladder / Offer Strategy · ROAS Optimization · CAC/LTV Analysis
+Social Media Management (Facebook, Instagram, YouTube, TikTok, LinkedIn, Snapchat, Telegram, X/Twitter) · Follower Growth & Audience Building · Social Monetization Strategy · Social-to-Sales Conversion · Paid Social (Meta Ads Manager) · Google Ads · TikTok Ads · Performance Marketing · Full-Funnel Strategy · Media Buying · GA4 · Looker Studio · Power BI · HubSpot CRM · Mailchimp · Shopify · Unbounce · ClickFunnels · A/B Testing · CRO · Direct-Response Copywriting · Value-Ladder / Offer Strategy · ROAS Optimization · CAC/LTV Analysis
 
 **Experience**
 
