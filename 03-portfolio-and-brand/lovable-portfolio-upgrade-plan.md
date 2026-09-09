@@ -38,7 +38,7 @@ For each of Zonia Hub, Suncious Foods, Luscents, McDobi GLOBAL, Hopmichar, James
 
 ## Technical/SEO checklist
 - Page load speed: compress all 3D renders/images (target <2s load — buyers and recruiters bounce fast).
-- Meta title/description tailored for search: "Caleb Marvel — Growth Marketer & Media Buyer | Remote, Global" — helps if recruiters Google your name pre-interview.
+- Meta title/description tailored for search: "Marvel Moses — Growth Marketer & Media Buyer | Remote, Global" — helps if recruiters Google your name pre-interview.
 - Mobile responsiveness check — a large % of LinkedIn-sourced traffic to your portfolio will be mobile.
 
 ## Priority order given the 25-day clock

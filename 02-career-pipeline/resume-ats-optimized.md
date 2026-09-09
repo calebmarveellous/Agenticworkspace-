@@ -1,4 +1,4 @@
-# ATS-Optimized Master Resume — Caleb Marvel
+# ATS-Optimized Master Resume — Marvel Moses
 
 **Instructions:** This is a master copy. Before every application, re-read the target JD and (1) swap the headline title to match their exact posting title, (2) reorder bullets so the most JD-relevant ones sit first under each role, (3) mirror 3-5 exact keyword phrases from the JD into your Skills section. Never submit this master copy unedited — a resume that isn't tailored per role is what your brief explicitly forbids.
 
@@ -6,7 +6,8 @@ Format notes: plain text/simple formatting only (no tables, text boxes, or graph
 
 ---
 
-## CALEB MARVEL
+## CHINWENDU MARVELLOUS AJAEGBU-CALEB
+*Professionally known as Marvel Moses*
 Growth Marketer | Media Buyer | Paid Social & Performance Marketing
 Owerri, Nigeria · Remote-first, distributed-team ready · [email] · [LinkedIn] · [Portfolio URL]
 
