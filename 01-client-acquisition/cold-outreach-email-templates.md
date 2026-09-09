@@ -4,6 +4,11 @@ Rules for every send: (1) personalize the [BRACKET] fields with real research, n
 
 **STANDING RULE (locked, applies to every email/application below):** lead with the value I'd bring to *them* — a short, specific list of what I'd help them achieve — never with a name-drop of past clients as the hook. Past work (Zonia Hub, Suncious Foods, Luscents, etc.) is supporting proof at most, placed after the value list, never the opening line. If a template below still leads with a client name, fix it before sending — it's out of date against this rule.
 
+## Verified Proof Points (swap into brackets below instead of leaving them blank)
+- **Social media growth:** Took James Trading Strategies' Instagram and Facebook from 0 to 10,000+ followers within 7 days (organic content + targeted paid boosting).
+- **Monetization:** Turned that audience into $5,000+ in client revenue within 30 days via direct product/service sales, platform ad-revenue share, and paid brand partnerships.
+- Use these as the supporting-proof line (after the value list, never the hook) in any sequence targeting a prospect whose pain point is social media growth, audience building, or monetization — not just paid ads.
+
 ---
 
 ## SEQUENCE A — ICP 1: DTC E-commerce Brands
@@ -81,6 +86,35 @@ What I'd bring to [Company]:
 3. A documented plan to cut blended CAC within the first 60 days.
 
 Open to a 15-min working session on your current funnel? I'll bring those 3 recommendations, not a sales pitch.
+
+[Your Name]
+```
+
+---
+
+## SEQUENCE D — Brands & Creators Needing Social Media Growth / Monetization
+
+**Email 1 — Subject: "[Company]'s follower plateau"**
+```
+Hi [First Name],
+
+Noticed [Company]'s [Instagram/TikTok/Facebook] has been sitting around [current follower count] for a while — the content's good, it's a distribution problem, not a quality one.
+
+Here's what I'd fix:
+1. A platform-native content system (not cross-posted identical content) built around what's actually driving reach on [platform] right now.
+2. A monetization path mapped from day one — sponsorships, product/service sales through the account, or platform ad-revenue share, not "grow first, figure out money later."
+3. A weekly test cadence on hooks, formats, and posting times so growth compounds instead of plateauing again in a month.
+
+Proof this works: I took a fintech client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then monetized that audience to $5,000+ in revenue within 30 days.
+
+Worth a 15-min teardown of your current content and a growth plan? Free, no pitch.
+
+[Your Name]
+```
+
+**Email 2 (Day 3) — Subject: "the growth plan"**
+```
+[First Name] — still happy to send that teardown + growth plan. One reply and it's in your inbox today.
 
 [Your Name]
 ```

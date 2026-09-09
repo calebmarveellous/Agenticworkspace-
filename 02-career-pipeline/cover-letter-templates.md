@@ -61,7 +61,7 @@ Dear [Hiring Manager Name],
 2. Build a content-to-conversion pipeline instead of chasing vanity metrics (likes, reach) that don't move revenue.
 3. Grow the channels that matter to [Company]'s stated goal — [specific JD pain point, e.g., "growing TikTok presence" or "community-led growth"] — with a measurable follower-to-lead path.
 
-I've done this before: at Suncious Foods, I grew [platform] from [X] to [Y] followers in [timeframe] while keeping cost-per-lead down [Z]%.
+I've done this before: for James Trading Strategies, I took Instagram and Facebook from 0 to 10,000+ followers within 7 days (organic content plus targeted paid boosting), then monetized that audience to $5,000+ in client revenue within 30 days.
 
 Would welcome a conversation about [Company]'s content roadmap.
 
