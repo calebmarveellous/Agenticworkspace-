@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Group Chat Diagnostic Manual</title>
+<style>
+  :root {
+    --hotpink: #E8195B;
+    --deepred: #7A1237;
+    --bg-pink: #FFD1DC;
+    --black: #111111;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    color: var(--black);
+    background: #fff;
+  }
+  .hero {
+    background: linear-gradient(160deg, var(--bg-pink) 0%, #ffe9ee 100%);
+    padding: 56px 20px 64px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: clamp(28px, 5vw, 46px);
+    font-weight: 900;
+    color: var(--hotpink);
+    max-width: 800px;
+    margin: 0 auto 16px;
+    line-height: 1.15;
+  }
+  .hero p.sub {
+    font-size: clamp(16px, 2.4vw, 20px);
+    max-width: 620px;
+    margin: 0 auto 32px;
+    color: var(--black);
+  }
+  .cover-wrap { margin: 0 auto 32px; max-width: 320px; }
+  .cover-wrap img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    transform: rotate(-3deg);
+  }
+  .cta-btn {
+    display: inline-block;
+    background: var(--hotpink);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(232,25,91,0.4);
+    transition: transform 0.15s ease;
+  }
+  .cta-btn:hover { transform: translateY(-2px); }
+  .trust-line { margin-top: 12px; font-size: 14px; color: #666; }
+
+  section { padding: 56px 20px; max-width: 900px; margin: 0 auto; }
+  .problem { text-align: center; }
+  .problem p { font-size: 18px; line-height: 1.6; max-width: 700px; margin: 0 auto; }
+
+  h2.section-title {
+    text-align: center;
+    font-size: clamp(24px, 4vw, 32px);
+    font-weight: 900;
+    color: var(--hotpink);
+    margin-bottom: 36px;
+  }
+
+  .chapter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  .chapter-card {
+    background: #fff;
+    border: 2px solid #ffd6e2;
+    border-radius: 14px;
+    padding: 20px;
+  }
+  .chapter-card .num {
+    display: inline-block;
+    background: var(--hotpink);
+    color: #fff;
+    font-weight: 800;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  .chapter-card h3 { font-size: 17px; margin: 0 0 8px; }
+  .chapter-card p { font-size: 14px; color: #555; margin: 0; font-style: italic; }
+
+  .features { background: #fff5f7; }
+  .feature-list { list-style: none; padding: 0; max-width: 560px; margin: 0 auto; }
+  .feature-list li {
+    font-size: 17px;
+    padding: 12px 0 12px 32px;
+    position: relative;
+    border-bottom: 1px solid #ffe0ea;
+  }
+  .feature-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--hotpink);
+    font-weight: 900;
+  }
+
+  .pricing-box {
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+    background: var(--black);
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 30px;
+  }
+  .pricing-box .price { font-size: 48px; font-weight: 900; color: var(--hotpink); }
+  .pricing-box .price span { font-size: 18px; color: #ccc; font-weight: 400; }
+  .pricing-box .cta-btn { margin-top: 20px; width: 100%; }
+  .pricing-box .joke { margin-top: 14px; font-size: 13px; color: #aaa; }
+
+  .faq-item { border-bottom: 1px solid #eee; padding: 18px 0; }
+  .faq-item h3 { font-size: 17px; margin: 0 0 6px; color: var(--deepred); }
+  .faq-item p { font-size: 15px; color: #555; margin: 0; }
+
+  footer {
+    text-align: center;
+    padding: 30px 20px 50px;
+    font-size: 13px;
+    color: #999;
+  }
+
+  #payMessage {
+    max-width: 420px;
+    margin: 16px auto 0;
+    font-size: 14px;
+    color: var(--deepred);
+    min-height: 20px;
+  }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <h1>MY THERAPIST SAID SET A BOUNDARY, SO I BLOCKED EVERYONE</h1>
+  <p class="sub">The comedic self-help book for anyone currently in a situationship, ghostlit, cushioned, or jealous of an AI boyfriend.</p>
+  <div class="cover-wrap">
+    <img src="assets/book-cover.png" alt="The Group Chat Diagnostic Manual book cover">
+  </div>
+  <button class="cta-btn pay-btn">Get The Book — $9</button>
+  <div class="trust-line">Instant PDF download. Funnier than your last relationship.</div>
+  <div id="payMessage"></div>
+</section>
+
+<section class="problem">
+  <p>This week alone, the internet diagnosed: situationships with no name, exes kept "just in case," boyfriends jealous of chatbots, and a guy who split a $14.37 bill down to the cent. You are not the problem. You are just under-researched.</p>
+</section>
+
+<section>
+  <h2 class="section-title">What's Inside</h2>
+  <div class="chapter-grid" id="chapterGrid"></div>
+</section>
+
+<section class="features">
+  <h2 class="section-title">What You Get</h2>
+  <ul class="feature-list">
+    <li>10 diagnostic chapters (Case File / Diagnosis / Severity / Treatment Plan format)</li>
+    <li>Foreword and closing "Discussion Questions For Your Own Therapist"</li>
+    <li>Instant PDF download, read on any device</li>
+    <li>Zero actual therapy credentials required</li>
+  </ul>
+</section>
+
+<section>
+  <div class="pricing-box">
+    <div class="price">$9 <span>one-time</span></div>
+    <p>Instant download. No subscription.</p>
+    <button class="cta-btn pay-btn" style="background:var(--hotpink);">Get The Book Now</button>
+    <div class="joke">Cheaper than the coffee you bought your situationship.</div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">FAQ</h2>
+  <div class="faq-item">
+    <h3>Is this real therapy advice?</h3>
+    <p>Absolutely not. Please still see an actual therapist.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What format is the book?</h3>
+    <p>PDF, instant download after purchase.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Will this fix my relationship?</h3>
+    <p>No, but it will make you feel extremely seen.</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 The Group Chat Diagnostic Manual. Emotional support, not professional therapy.
+</footer>
+
+<script src="https://js.paystack.co/v2/inline.js"></script>
+<script>
+  // ==== CONFIG: replace with your own Paystack public key ====
+  const PAYSTACK_PUBLIC_KEY = "PLACEHOLDER_PAYSTACK_PUBLIC_KEY";
+  const AMOUNT_USD = 9; // sale price
+  const CURRENCY = "USD"; // change to "NGN"/"GHS"/"ZAR"/"KES" if your Paystack account isn't USD-enabled
+  // =============================================================
+
+  const chapters = [
+    ["1", "The Situationship Anniversary", "14 months in and neither of you has said the word out loud."],
+    ["2", "Cushioning: The “Just In Case” Ex", "A backup plan is for fire drills, not girlfriends."],
+    ["3", "Ghostlighting", "The art of disappearing and then denying it ever happened."],
+    ["4", "Golden Retriever Boyfriend vs. Black Cat Boyfriend", "An unlicensed field guide to attachment styles."],
+    ["5", "My Boyfriend Is Jealous Of My AI Boyfriend", "A love triangle nobody asked for."],
+    ["6", "The Therapy-Speak Courtroom", "Objection! That's not what gaslighting means."],
+    ["7", "Love Bombing or Just... Nice?", "A mystery in twelve bouquets."],
+    ["8", "The 45-Minute Micro-Mance", "A whirlwind romance, emphasis on whirl."],
+    ["9", "Meeting His Mom, Who Called Me “Sweetie” Like A Threat", "Etiquette tips for surviving Sunday dinner."],
+    ["10", "The Bill, Split To The Exact Cent", "A financial thriller."]
+  ];
+  const grid = document.getElementById("chapterGrid");
+  chapters.forEach(([num, title, teaser]) => {
+    const card = document.createElement("div");
+    card.className = "chapter-card";
+    card.innerHTML = `<span class="num">Chapter ${num}</span><h3>${title}</h3><p>${teaser}</p>`;
+    grid.appendChild(card);
+  });
+
+  function payWithPaystack() {
+    const msg = document.getElementById("payMessage");
+    if (PAYSTACK_PUBLIC_KEY === "PLACEHOLDER_PAYSTACK_PUBLIC_KEY") {
+      msg.textContent = "Payments aren't configured yet — add your Paystack public key in index.html.";
+      return;
+    }
+    const email = window.prompt("Enter your email to receive the book:");
+    if (!email) return;
+
+    const handler = PaystackPop.setup({
+      key: PAYSTACK_PUBLIC_KEY,
+      email: email,
+      amount: AMOUNT_USD * 100, // Paystack expects the smallest currency unit
+      currency: CURRENCY,
+      ref: "gcdm_" + Math.floor(Date.now() / 1000) + "_" + Math.random().toString(36).slice(2, 8),
+      callback: function(response) {
+        // Payment succeeded client-side. Redirect to the download page with the reference.
+        window.location.href = "thank-you.html?ref=" + encodeURIComponent(response.reference) + "&email=" + encodeURIComponent(email);
+      },
+      onClose: function() {
+        msg.textContent = "Checkout closed — no charge was made.";
+      }
+    });
+    handler.openIframe();
+  }
+
+  document.querySelectorAll(".pay-btn").forEach(btn => btn.addEventListener("click", payWithPaystack));
+</script>
+
+</body>
+</html>
