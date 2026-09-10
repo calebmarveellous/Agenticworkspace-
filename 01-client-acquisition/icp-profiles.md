@@ -33,5 +33,15 @@ Rule: an ICP is only usable if you can name where to find 50+ of them this week.
 **Where to find them:** Podcast guest lists in the coaching/consulting space, ClickFunnels/Kajabi "built with" footers, YouTube ad library for course creators actively running ads (signals budget).
 **Ticket size:** $2,000–$7,000/mo + optional rev-share.
 
+## ICP 6 — Local SMBs With Weak Digital Presence (any sector, any city)
+**Pain:** Either has a decent website but dead/absent social, or has an active audience but no retargeting/conversion funnel behind it, or is running purely on word-of-mouth + phone/WhatsApp with no digital acquisition channel at all.
+**Why you win:** Fast to qualify (5-minute site + social check), zero competition from large agencies who ignore this segment as "too small," and the fix is usually cheap-to-deliver but high-visible-impact for the owner (e.g., first-ever retargeting sequence, first-ever content-to-conversion pipeline).
+**Sub-segments found so far (verified, real businesses, not hypothetical):**
+- Has website + no/weak social: UK trade services (Allan Plumbing, Manchester).
+- Has website + has social, funnel gap: Nigerian local SMBs (Landmark Event Centre Owerri, Tech City Real Estate Port Harcourt, Mercy Divine Properties Port Harcourt, Skin Pop Essentiel Abuja — 14K Instagram, active on 4 platforms, well-built Shopify store, no retargeting sequence).
+- Social-only, no website, no findable email: common pattern in Nigerian fashion/boutique retail (Port Harcourt boutiques checked — phone/WhatsApp only, no email found — correctly excluded from email outreach per the never-fabricate-an-email rule; would need phone/WhatsApp outreach to reach, which is a different channel than what's been used so far).
+**Where to find them:** WebSearch by city + sector ("[city] [sector] website Nigeria"), then WebFetch each candidate site directly to check design quality, social links, and a real contact email before ever sending outreach.
+**Ticket size:** $300–$1,500/mo retainer or a fixed-fee teardown-to-retainer conversion — lower ticket than ICP 1-5, but much higher volume and much faster to qualify, which matters for the 25-day/1,000-client math.
+
 ## Prioritization for the next 25 days
-Rank order by speed-to-close: **ICP 1 (DTC e-comm) → ICP 5 (coaches/info-product) → ICP 2 (FMCG) → ICP 3 (B2B) → ICP 4 (fintech)**. DTC and info-product sellers have the shortest sales cycles and clearest ROI story — front-load outreach volume there in Week 1, layer in ICP 2-4 from Week 2 once your sequences are proven.
+Rank order by speed-to-close: **ICP 1 (DTC e-comm) → ICP 6 (local SMB) → ICP 5 (coaches/info-product) → ICP 2 (FMCG) → ICP 3 (B2B) → ICP 4 (fintech)**. DTC and local SMBs have the shortest sales cycles and fastest qualification — front-load outreach volume there in Week 1, layer in ICP 2-5 from Week 2 once your sequences are proven.
