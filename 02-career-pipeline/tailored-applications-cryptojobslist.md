@@ -202,6 +202,35 @@ Caleb Marvel
 
 ---
 
+## 9. garden3d — Head of Marketing & Communications (Remote, worldwide, $150k-230k)
+**Apply:** https://weworkremotely.com/remote-jobs/garden3d-head-of-marketing-communications (mirror: https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068)
+**Honest note — real stretch, apply anyway:** this is a senior/Head-of-Marketing leadership role at a creative collective (garden3d owns Sanctuary Computer, XXIX, Index Space, USB Club) with editorial ownership across Substack, podcast, Instagram, X. Highest pay on this whole list by a wide margin. No explicit "X years required" was found in the JD, but the seniority is real — this is a reach, not a safe bet. Worth the 10 minutes to apply since the downside is just time, but don't count on it as a likely close.
+
+```
+Dear Hiring Manager,
+
+garden3d isn't one brand voice, it's five — Sanctuary Computer, XXIX, Index Space, USB Club, and the garden3d umbrella itself — and the job is making all of them worth paying attention to at once. Here's what I'd bring to owning that:
+
+1. A distinct content and distribution system for each brand under the house, so USB Club doesn't sound like XXIX doesn't sound like the garden3d Substack — five real voices, not one voice repeated five times.
+2. A production cadence across Substack, podcast, Instagram, and X that doesn't wait on a designer or a sign-off chain — content made and shipped on a rhythm.
+3. A clear read on which channel is actually building audience for which brand, so the paid accounts behind them are spending against what's working, not what feels active.
+
+Direct proof I can build and monetize an audience from a standing start: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then converted that audience into $5,000+ in revenue within 30 days — the same build-a-voice-then-monetize-it arc this role runs, applied at house-of-brands scale.
+
+I'd welcome the chance to walk through how I'd approach the first 90 days across garden3d's channels.
+
+Best,
+Caleb Marvel
+```
+
+---
+
+## Verified but NOT added — needs a closer look before applying
+- **Koinly — Social Media and Community Manager** ($54k-66k): search snippets conflict — some list "Remote Worldwide," the detailed JD from Koinly's own careers page says "Remote 100%, Europe." Don't apply until you've opened the listing yourself and confirmed which is accurate — per the standing rule, an unresolved location conflict means verify first, don't add on a guess.
+- **Chainstack — Web3 Social Media Manager** ($72k-80k): location tag is ambiguously listed as "Worldwide/Singapore" across sources, and the JD requires 3+ years managing a 20K+ Twitter following — your strongest verified proof point is 10,000+ followers in 7 days for one client, not a sustained 20K+ account. Real chance of an eligibility mismatch on top of the location ambiguity — check both before spending an application here.
+
+---
+
 ## Submission checklist per application
 1. Confirm the listing is still live at the link above (ATS/board listings expire without warning — vibetrade.fun and Fiber especially, flagged above).
 2. Paste the tailored cover letter into the application's cover letter field, or export as PDF and attach.
