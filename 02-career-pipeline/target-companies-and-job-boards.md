@@ -1,5 +1,7 @@
 # Target Companies & Job Boards — Remote Growth/Media Buying Roles
 
+**STANDING RULE (locked):** only apply to roles that are genuinely open to candidates anywhere in the world — not "remote" as a euphemism for "remote, but must be based in/authorized to work in [country/region]." A "Remote" tag on a job board is not enough by itself; verify the actual JD for country/region/timezone restrictions before adding a role to the application queue. Region-locked roles (e.g., "Remote - USA," "Remote, Asia," "Growth Manager - Vietnam," "Marketing Manager - LATAM") are excluded even if tagged "Remote," unless the JD explicitly states open-worldwide eligibility (timezone-alignment asks, like "must overlap EST hours," are fine — that's not a location restriction, just scheduling).
+
 ## Daily-check job boards (remote-first, highest signal-to-noise for this profile)
 - **We Work Remotely** — highest volume, filter by Marketing category
 - **Growth.Talent** — growth-marketing-specific, often has salary transparency

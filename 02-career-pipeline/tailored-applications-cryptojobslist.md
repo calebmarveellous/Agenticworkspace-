@@ -1,29 +1,35 @@
-# Tailored Applications — CryptoJobsList Top Picks (Ready to Submit)
+# Tailored Applications — Worldwide-Remote Only (CryptoJobsList + sourced boards)
 
-**Important capability note, stated plainly:** none of these 6 companies list a direct application email — all route through an ATS (Greenhouse, Ashby, Workable) or their own careers portal. I don't have a browser-automation tool that can fill out and submit third-party web forms, so I can't click "Apply" for you the way I can send a Gmail cold email. What I *can* do — and did — is confirm each listing is real and currently posted, pull the actual JD pain points, and write the cover letter tailored to each one. You paste the cover letter into the application's cover-letter field (or attach as PDF) and upload the resume. That's a 2-minute job per application once the letter is written, which is the part that actually takes real work.
+**Standing rule applied (see `target-companies-and-job-boards.md`):** only genuinely worldwide-open remote roles below. The original 6-pick list from the first pass included several that were "Remote" in name but country/region-restricted in practice — those are dropped, with the reason logged so they're not re-added by accident:
 
-**One listing dropped:** JeffreyM Consulting's Social Media Community Manager role in Seattle is a contract that explicitly ends **December 31, 2025** — that's 8+ months before today (Sept 10, 2026). This listing is almost certainly stale on the aggregator and the role is filled or expired. Not worth spending an application on. Replacing it in your priority order with Verilay below.
+| Dropped role | Why it's out |
+|---|---|
+| Coinbase — Social Support Sr. Manager | "Remote - USA" — must be based in/authorized to work in the US. |
+| Bitget Wallet — Growth Manager Vietnam | Regional hire for the Vietnam market specifically, not open-worldwide. |
+| BitMEX — Social Media Manager | Listed as "Remote, Asia" / Singapore-tied — Asia-region restricted. |
+| Rain — Marketing Manager LATAM | Explicitly the first dedicated LATAM hire — region-restricted by design. |
+| JeffreyM Consulting — Seattle | Already dead (contract ended Dec 2025) *and* Seattle-hybrid, not remote. |
+
+**Capability note (unchanged from before):** none of the roles below have a direct application email — all route through an ATS or the company's own portal. I can't submit third-party web forms, so each entry below has the tailored cover letter plus the exact link for you to submit yourself.
 
 ---
 
-## Priority order (fastest-to-close first)
-
-### 1. Rain — Marketing Manager, LATAM (strongest fit)
-**Apply:** https://jobs.ashbyhq.com/rain/209bc01f-ff2d-4390-9f78-47bb5a08cc6c
-**Pain point from JD:** Rain (stablecoin infrastructure for card/cross-border payments) has zero dedicated LATAM marketer — this hire builds the region's go-to-market from scratch: target accounts, localized messaging, playbooks, paid + partner marketing, PR.
+## 1. cryptohero.ca — Affiliate & Partnerships Manager (Remote, worldwide, $2k/mo base + revenue share, top performers $10k-50k+/mo)
+**Apply:** https://cryptojobslist.com/jobs/affiliate-partnerships-manager-remote-at-cryptohero-ca
+**Pain point from JD:** needs someone to build and scale an affiliate/referral program from the ground up — recruit, onboard, and manage affiliates/influencers, negotiate commission structures.
 
 ```
 Dear Hiring Manager,
 
-Rain's decision to hire its first dedicated LATAM marketer — rather than bolt the region onto a global playbook — is the right call, and it's exactly the kind of build-from-zero mandate I'd want to own. Here's what I'd bring to it:
+Building an affiliate program that actually compounds — not just a spreadsheet of sign-up links — comes down to treating affiliates like a managed channel, not a set-and-forget list. Here's what I'd bring to that:
 
-1. A full-funnel B2B acquisition system for LATAM fintechs, neobanks, and regional banks — target account lists, GA4/HubSpot attribution, and a documented playbook so the function is repeatable once you hire beyond an IC.
-2. Localized paid + partner marketing built around how LATAM crypto/fintech buyers actually convert — not a translated version of the NYC playbook.
-3. A structured content and PR cadence tied to partnership announcements, so every BD win compounds into pipeline instead of disappearing after the press release.
+1. A structured recruitment-to-onboarding pipeline for affiliates and influencers, so growth doesn't stall waiting on ad-hoc outreach.
+2. Commission structures negotiated around actual affiliate LTV, not flat rates that either overpay low performers or underpay your best ones.
+3. An ongoing relationship cadence that keeps top affiliates active and promoting, instead of recruiting once and going quiet.
 
-I've built this exact kind of ground-up B2B growth system before: at Zonia Hub, an agricultural B2B marketplace, I built lead-gen funnels and GA4/HubSpot attribution from scratch that improved lead quality on both sides of a two-sided platform — a similar "build the system before you have a team" problem to what LATAM is for Rain right now.
+Proof this works: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then turned that audience into $5,000+ in revenue within 30 days through a mix of direct sales, ad-revenue share, and paid partnerships — the same discipline of turning relationships into tracked, recurring revenue that this role needs.
 
-I'd welcome a conversation about how I'd approach the first 90 days building out this region.
+Happy to walk through how I'd structure the first 90 days of the affiliate program.
 
 Best,
 Caleb Marvel
@@ -31,103 +37,9 @@ Caleb Marvel
 
 ---
 
-### 2. Bitget Wallet — Growth Manager, Vietnam (regional growth, fast-moving)
-**Apply:** LinkedIn listing — https://vn.linkedin.com/jobs/view/regional-growth-manager-vietnam-at-bitget-wallet-4399825033 (apply via LinkedIn Easy Apply or the linked careers page). No verified direct email found — do not email this one; use the LinkedIn application.
-
-```
-Dear Hiring Manager,
-
-Bitget Wallet's regional growth push into Vietnam is a market where trust and community-led adoption move faster than paid spend alone. Here's what I'd bring to that:
-
-1. A community-to-conversion pipeline — not just growing follower counts, but mapping the path from awareness to wallet activation with a measurable funnel at each step.
-2. Regional launch playbooks documented as they're built, so what works in Vietnam becomes repeatable for the next region instead of starting over.
-3. CAC and activation tracking from day one, so growth spend has a clear read on what's actually working versus what just looks active.
-
-Proof this works: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then monetized that audience to $5,000+ in revenue within 30 days — the same discipline of turning attention into a tracked, measurable outcome, not vanity metrics.
-
-Happy to walk through how I'd structure the first 90 days for this region.
-
-Best,
-Caleb Marvel
-```
-
----
-
-### 3. Coinbase — Social Support Senior Manager, Remote USA ($201k-236k)
-**Apply:** https://www.coinbase.com/careers/positions/8088912?gh_jid=8088912
-**Pain point from JD:** needs to build a unified social support program across Reddit/X/LinkedIn, crisis-management playbooks (data-breach comms, scam advisories), AI-to-human escalation workflows that eliminate chatbot loops, and SLA/performance dashboards.
-**Honest note:** this role skews toward social *support/crisis-ops* leadership more than growth marketing — it's the highest-comp listing found but the biggest stretch from your core background. Worth applying since the systems-building and social-channel-ownership experience transfers, but go in knowing it's a reach, not a lock.
-
-```
-Dear Hiring Manager,
-
-Coinbase runs social support at a scale where a single mishandled crisis response becomes the story instead of the resolution. Here's what I'd bring to owning that:
-
-1. A unified triage-and-escalation system across Reddit, X, and LinkedIn, with clear SLA frameworks and dashboards so performance is never a guessing game at review time.
-2. A documented crisis-response playbook built before the crisis, not during it — data-breach comms, scam advisories, and trust-rebuilding sequences ready to execute on day one.
-3. AI-to-human handoff design that actually eliminates chatbot loops — routing based on issue severity and user frustration signals, not a flat escalation queue.
-
-I've built cross-channel attribution and reporting systems under real pressure before — at Zonia Hub, I built GA4/HubSpot tracking that gave leadership a clear, defensible read on what was working across channels, the same discipline this role needs applied to crisis and support operations instead of acquisition.
-
-I'd welcome the chance to walk through how I'd structure the first 90 days of this program.
-
-Best,
-Caleb Marvel
-```
-
----
-
-### 4. BitMEX — Social Media Manager (Remote / Hong Kong hybrid)
-**Apply:** via bitmex.com careers page or https://web3.career/social-media-manager/165 (listing routes to BitMEX's own application form)
-**Pain point from JD:** needs to grow and manage a large Twitter/X profile plus other platforms, run standalone social campaigns aligned to broader marketing, and generate fresh content ideas.
-
-```
-Dear Hiring Manager,
-
-Running social for an exchange means the Twitter/X account has to do double duty — brand voice and real-time trust signal at once. Here's what I'd bring to that:
-
-1. A platform-native content system for X specifically, not cross-posted identical content — built around what's actually driving reach and engagement on the platform right now.
-2. Standalone campaign concepts that tie back to product launches and broader marketing pushes, instead of social running as a disconnected content calendar.
-3. A weekly testing cadence on hooks, formats, and posting times so growth compounds instead of plateauing.
-
-Proof this works: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then monetized that audience to $5,000+ in revenue within 30 days through organic content plus targeted paid boosting.
-
-I'd welcome a conversation about BitMEX's current content roadmap.
-
-Best,
-Caleb Marvel
-```
-
----
-
-### 5. Collectibles.com — Discord Community Manager (Web3 & Collectibles, Remote, $45k-80k)
-**Apply:** via BeInCrypto Jobs listing — https://beincrypto.com/jobs/p/discord-community-manager-web3-collectibles-collectibles/ — or CryptoJobsList direct: https://cryptojobslist.com/jobs/discord-community-manager-web3-at-collectibles-com
-**Pain point from JD:** needs someone to oversee and evolve an engaging, well-organized Discord community — regular content (updates, polls, announcements, events) to keep members active, startup mentality, ideally a network in Solana/digital collectibles.
-**Honest note:** JD explicitly prefers Discord bot/engagement-tool experience and a Solana network — I don't have either verified, so the letter leans on transferable community-growth discipline rather than claiming Discord-specific tooling expertise I don't have.
-
-```
-Dear Hiring Manager,
-
-A Discord community only stays active if there's a real cadence behind it, not just a channel that goes quiet between drops. Here's what I'd bring to keeping Collectibles.com's community engaged:
-
-1. A weekly content and events rhythm — polls, announcements, conversations — planned in advance instead of reactive, so the server has a pulse even on slow weeks.
-2. Engagement tracking that shows which content types and events actually move members from lurkers to active participants, not just raw member-count growth.
-3. A startup-ready approach to ownership — I'd expect to wear multiple hats early on and build the systems (not just run the day-to-day) so the community function scales as the team does.
-
-I've built exactly this kind of audience-to-engagement discipline before: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then turned that engaged audience into $5,000+ in revenue within 30 days — the same principle of treating community growth as a measurable system, not a vibe.
-
-Would welcome a conversation about where the Collectibles.com community is headed next.
-
-Best,
-Caleb Marvel
-```
-
----
-
-### 6. Verilay — Growth Lead, Remote ($50k-70k)
-**Apply:** directly via CryptoJobsList listing — https://cryptojobslist.com/jobs/verilay-is-hiring-a-growth-lead-remote-at-verilay
-**Pain point from JD:** early-stage ZK Rollup/DID identity company needs someone to define positioning, ICP, pricing, and channels from scratch, and run GTM experiments across enterprise sales, partnerships, and product-led acquisition.
-**Honest note:** this is the biggest stretch of the six — deep technical B2B (zero-knowledge proofs, decentralized identity) enterprise sales is not your background. The letter is honest about leaning on the transferable "build GTM from zero" skill rather than claiming ZK/DID technical fluency.
+## 2. Verilay — Growth Lead (Remote, worldwide, $50k-70k/yr)
+**Apply:** https://cryptojobslist.com/jobs/verilay-is-hiring-a-growth-lead-remote-at-verilay
+**Honest note:** biggest technical stretch on this list (ZK Rollup / DID identity, deep enterprise B2B) — letter leans on transferable "build GTM from zero" skill, not claimed technical fluency.
 
 ```
 Dear Hiring Manager,
@@ -148,8 +60,150 @@ Caleb Marvel
 
 ---
 
+## 3. Crypto Fund Trader — Regional Growth Manager (Remote, worldwide — "apply from anywhere unless the listing specifies a region," $14k-28k/yr)
+**Apply:** https://cryptojobslist.com/jobs/regional-growth-managers-multiple-remote-at-crypto-fund-trader
+**Important:** the JD asks you to specify the market you know best. Specify **Nigeria / West Africa** — you have direct market knowledge there and it's an underserved region for most crypto prop firms.
+**Why this fits especially well:** it's a crypto *trading* company, and your strongest verified proof point is from a trading-strategies client.
+
+```
+Dear Hiring Manager,
+
+I'd apply specifically for the Nigeria / West Africa market. Retail crypto trading interest here is real and growing, but most global prop firms treat the region as an afterthought — that gap is the opportunity. Here's what I'd bring to owning it:
+
+1. A region-specific acquisition playbook built on actual knowledge of how Nigerian retail traders discover and evaluate trading platforms — not a copy-pasted global funnel.
+2. Partnership and affiliate channel development with the trading communities and creators already active in this market.
+3. A CAC-tracked funnel from first touch to funded trader account, so growth here is measurable, not just "activity."
+
+Direct proof this works in exactly this niche: I took James Trading Strategies' Instagram and Facebook from 0 to 10,000+ followers in 7 days, then monetized that audience to $5,000+ in revenue within 30 days — a trading-education audience, the closest possible match to what Crypto Fund Trader needs in this market.
+
+Happy to walk through how I'd approach the first 90 days growing the Nigeria/West Africa market.
+
+Best,
+Caleb Marvel
+```
+
+---
+
+## 4. Collectibles.com — Discord Community Manager (Remote, worldwide, $45k-80k/yr)
+**Apply:** https://cryptojobslist.com/jobs/discord-community-manager-web3-at-collectibles-com (mirror: https://beincrypto.com/jobs/p/discord-community-manager-web3-collectibles-collectibles/)
+**Honest note:** JD prefers Discord-bot/engagement-tool experience and a Solana network — neither verified here, so the letter leans on transferable community-growth discipline, not claimed tooling expertise.
+
+```
+Dear Hiring Manager,
+
+A Discord community only stays active if there's a real cadence behind it, not just a channel that goes quiet between drops. Here's what I'd bring to keeping Collectibles.com's community engaged:
+
+1. A weekly content and events rhythm — polls, announcements, conversations — planned in advance instead of reactive, so the server has a pulse even on slow weeks.
+2. Engagement tracking that shows which content types and events actually move members from lurkers to active participants, not just raw member-count growth.
+3. A startup-ready approach to ownership — I'd expect to wear multiple hats early on and build the systems (not just run the day-to-day) so the community function scales as the team does.
+
+I've built exactly this kind of audience-to-engagement discipline before: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then turned that engaged audience into $5,000+ in revenue within 30 days — the same principle of treating community growth as a measurable system, not a vibe.
+
+Would welcome a conversation about where the Collectibles.com community is headed next.
+
+Best,
+Caleb Marvel
+```
+
+---
+
+## 5. CoinFunnel — Crypto PR / Business Development Executive (Remote, worldwide, commission-based)
+**Apply:** https://careers.coinfunnel.io/
+**Pain point from JD:** needs someone who builds a consistent daily outreach pipeline (Telegram/X/Discord/LinkedIn/email), sources and closes their own clients, and reports weekly on leads/replies/proposals/closed revenue.
+**Why this fits well:** this is, almost literally, the exact daily discipline you've been running this session — structured verified outreach, tracked reply rates, real closes.
+
+```
+Dear Hiring Manager,
+
+CoinFunnel's model rewards whoever actually runs the outreach pipeline every day, not whoever has the best title — that's a system I already operate, not a skill I'd be learning on the job. Here's what I'd bring to it:
+
+1. A daily, personalized outreach cadence across the channels crypto/Web3 clients actually respond on — no templated spam, every message researched first.
+2. A tracked pipeline from first outreach through proposal to close, reported weekly with real numbers — leads, replies, proposals sent, revenue closed — not vague activity metrics.
+3. A focus on repeat accounts, not one-off sales — the relationship after the first close is where the real commission compounds.
+
+Proof this works: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then converted that audience into $5,000+ in revenue within 30 days through direct sales, ad-revenue share, and paid partnerships — the same close-and-compound discipline this role runs on.
+
+Happy to share exactly how I'd structure my first month of pipeline-building.
+
+Best,
+Caleb Marvel
+```
+
+---
+
+## 6. vibetrade.fun — Part-Time Social Media & Content Manager (Remote, worldwide, 15-25 hrs/wk)
+**Apply:** https://cryptojobslist.com/jobs/part-time-social-media-content-manager-remote-at-vibetrade-fun
+**Time-sensitive:** this listing showed a ~9-day application window when first indexed roughly 2 weeks ago — **verify it's still live before spending time on the cover letter/submission**, it may have already closed.
+**Why this fits well:** vibetrade.fun is a Solana social-trading platform (short-form video + trading) — directly adjacent to your trading-audience social growth proof point.
+
+```
+Dear Hiring Manager,
+
+vibetrade.fun's whole premise — making trading content genuinely watchable and shoppable — lives or dies on the content engine behind it. Here's what I'd bring to that:
+
+1. A platform-native short-form content system built around what's actually driving discovery on the app right now, not generic crypto-Twitter recycled content.
+2. A weekly testing cadence on hooks, formats, and posting times so the content-to-trade pipeline keeps improving instead of plateauing.
+3. A clear read on which content actually drives buyable-content discovery and trader activation, not just views.
+
+Direct proof this transfers: I took a trading-strategies client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then monetized that audience to $5,000+ in revenue within 30 days — the same trading-plus-social-content combination vibetrade.fun runs on.
+
+Would welcome a conversation about the current content roadmap.
+
+Best,
+Caleb Marvel
+```
+
+---
+
+## 7. Fiber — Community Ambassador (Remote, worldwide — contractor, revenue-share + monthly compensation)
+**Apply:** via CryptoJobsList community listings — https://cryptojobslist.com/community (search "Fiber Community Ambassador")
+**Honest flag, read before applying:** the JD specifically wants people **already active** in crypto/Web3/fintech communities (projects, DAOs, universities, content creators) — not marketers-for-hire with no prior community footprint. If you don't already have a genuine presence in a crypto/Web3 community, this is a weaker fit than the others on this list and the application should say so honestly rather than overstate existing involvement.
+
+```
+Dear Hiring Manager,
+
+Here's what I'd bring to growing Fiber's presence and adoption:
+
+1. Structured growth of awareness and community engagement using the same organic-plus-paid approach I've used to take social accounts from a standing start to a real, monetized audience — not just posting activity.
+2. A measurable path from awareness to adoption, treating community growth as a tracked funnel rather than a vanity-metric exercise.
+3. Honest, direct communication — I'd rather build credibility with your community over time than oversell involvement I don't have yet.
+
+Proof this approach works: I took a client's Instagram and Facebook from 0 to 10,000+ followers in 7 days, then monetized that audience to $5,000+ in revenue within 30 days.
+
+I'd want to be upfront that my prior community involvement is in growth marketing and social audiences generally, not yet inside a specific Web3 community — I'd bring the acquisition discipline and grow into the ecosystem fast.
+
+Best,
+Caleb Marvel
+```
+
+---
+
+## 8. Decentralized Masters — Virtual Assistant, Fulfilment (Remote, worldwide — must overlap EST working hours)
+**Apply:** https://cryptojobslist.com/jobs/virtual-assistant-fulfilment-analysts-decentralized-masters-buenos-aires-buenos-aires-argentina (also listed on startup.jobs, remoterocketship.com)
+**Note:** genuinely open-worldwide, the only constraint is EST timezone overlap for working hours — that's scheduling, not a location restriction, so it stays on this list per the standing rule.
+**Pain point from JD:** needs someone detail-oriented handling membership operations — extensions, pauses, access revocations, mailbox monitoring, member communication.
+
+```
+Dear Hiring Manager,
+
+Membership operations run smoothly when someone treats every account action as something that has to be right the first time, not fixed later. Here's what I'd bring to the Fulfilment team:
+
+1. Accurate, timely processing of membership actions (extensions, pauses, access changes) with a system for double-checking before anything is marked done.
+2. Consistent mailbox monitoring and response, so member questions don't sit unanswered past a reasonable SLA.
+3. Clear, professional written communication that reflects well on the brand in every member interaction, not just the easy ones.
+
+I bring strong organizational systems from running my own client operations — tracking outreach, deliverables, and follow-through across multiple accounts at once, which is the same discipline this role needs applied to membership fulfilment.
+
+I'm available to work EST-aligned hours and would welcome the opportunity to discuss the role further.
+
+Best,
+Caleb Marvel
+```
+
+---
+
 ## Submission checklist per application
-1. Confirm the listing is still live at the link above (ATS listings expire without warning).
+1. Confirm the listing is still live at the link above (ATS/board listings expire without warning — vibetrade.fun and Fiber especially, flagged above).
 2. Paste the tailored cover letter into the application's cover letter field, or export as PDF and attach.
-3. Attach `Caleb-Marvel-Resume-Final.docx` (already built this session).
-4. Double check the "why us" line still reads as genuine after any last-minute edits — don't let it drift into generic filler.
+3. Attach `Caleb-Marvel-Resume-Final.docx`.
+4. For Crypto Fund Trader specifically: make sure the application clearly states "Nigeria / West Africa" as the target market, since the JD requires specifying this.
