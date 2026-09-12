@@ -154,7 +154,7 @@
   <div class="cover-wrap">
     <img src="https://raw.githubusercontent.com/calebmarveellous/Agenticworkspace-/claude/create-claude-md-file-i2jx1h/site/assets/book-cover.png" alt="The Group Chat Diagnostic Manual book cover">
   </div>
-  <button class="cta-btn pay-btn">Get The Book — $9</button>
+  <button class="cta-btn pay-btn">Get The Book — ₦5,000</button>
   <div class="trust-line">Instant PDF download. Funnier than your last relationship.</div>
   <div id="payMessage"></div>
 </section>
@@ -180,7 +180,7 @@
 
 <section>
   <div class="pricing-box">
-    <div class="price">$9 <span>one-time</span></div>
+    <div class="price">₦5,000 <span>one-time</span></div>
     <p>Instant download. No subscription.</p>
     <button class="cta-btn pay-btn" style="background:var(--hotpink);">Get The Book Now</button>
     <div class="joke">Cheaper than the coffee you bought your situationship.</div>
@@ -211,8 +211,8 @@
 <script>
   // ==== CONFIG: replace with your own Paystack public key ====
   const PAYSTACK_PUBLIC_KEY = "pk_live_ac49bdbf0d11f4fdeb4b5fcbcf5008da6c4d5122";
-  const AMOUNT_USD = 9; // sale price
-  const CURRENCY = "USD"; // change to "NGN"/"GHS"/"ZAR"/"KES" if your Paystack account isn't USD-enabled
+  const AMOUNT_NAIRA = 5000; // sale price, in Naira
+  const CURRENCY = "NGN";
   // =============================================================
 
   const chapters = [
@@ -247,7 +247,7 @@
     const handler = PaystackPop.setup({
       key: PAYSTACK_PUBLIC_KEY,
       email: email,
-      amount: AMOUNT_USD * 100, // Paystack expects the smallest currency unit
+      amount: AMOUNT_NAIRA * 100, // Paystack expects the smallest currency unit (kobo)
       currency: CURRENCY,
       ref: "gcdm_" + Math.floor(Date.now() / 1000) + "_" + Math.random().toString(36).slice(2, 8),
       callback: function(response) {

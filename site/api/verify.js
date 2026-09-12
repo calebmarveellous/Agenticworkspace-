@@ -1,8 +1,8 @@
 // Server-side Paystack payment verification.
 // Never exposes the secret key to the browser; runs only on Vercel's servers.
 
-const EXPECTED_AMOUNT = 900; // $9.00, in the smallest currency unit (cents)
-const EXPECTED_CURRENCY = "USD";
+const EXPECTED_AMOUNT = 500000; // ₦5,000, in the smallest currency unit (kobo)
+const EXPECTED_CURRENCY = "NGN";
 const DOWNLOAD_URL =
   "https://raw.githubusercontent.com/calebmarveellous/Agenticworkspace-/claude/create-claude-md-file-i2jx1h/site/assets/the-group-chat-diagnostic-manual.pdf";
 
