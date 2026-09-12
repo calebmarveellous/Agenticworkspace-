@@ -26,10 +26,10 @@
     padding: 44px 32px;
     box-shadow: 0 20px 50px rgba(0,0,0,0.15);
   }
-  h1 { color: var(--hotpink); font-size: 26px; margin-bottom: 12px; }
+  h1 { color: var(--hotpink); font-size: 24px; margin-bottom: 12px; }
   p { font-size: 16px; color: #444; line-height: 1.5; }
   .download-btn {
-    display: inline-block;
+    display: none;
     margin-top: 24px;
     background: var(--hotpink);
     color: #fff;
@@ -41,46 +41,68 @@
     box-shadow: 0 10px 24px rgba(232,25,91,0.4);
   }
   .ref { margin-top: 20px; font-size: 12px; color: #999; word-break: break-all; }
-  .warning {
-    margin-top: 28px;
-    font-size: 13px;
-    color: #a15b00;
-    background: #fff6e5;
-    border: 1px solid #ffe1a8;
-    border-radius: 10px;
-    padding: 12px 14px;
-    text-align: left;
+  .spinner {
+    margin: 20px auto 0;
+    width: 28px;
+    height: 28px;
+    border: 3px solid #ffd6e2;
+    border-top-color: var(--hotpink);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
   }
+  @keyframes spin { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
   <div class="card">
-    <h1>Payment Received. Diagnosis Incoming.</h1>
-    <p id="mainMsg">Thanks for your purchase! Your copy of <strong>The Group Chat Diagnostic Manual</strong> is ready.</p>
-    <a class="download-btn" href="https://raw.githubusercontent.com/calebmarveellous/Agenticworkspace-/claude/create-claude-md-file-i2jx1h/site/assets/the-group-chat-diagnostic-manual.pdf" download>Download Your Book (PDF)</a>
+    <h1 id="mainTitle">Verifying your payment…</h1>
+    <p id="mainMsg">Hang tight — we're confirming your purchase with Paystack.</p>
+    <div class="spinner" id="spinner"></div>
+    <a class="download-btn" id="downloadBtn" href="#" download>Download Your Book (PDF)</a>
     <div class="ref" id="refLine"></div>
   </div>
-  <!--
-    SITE OWNER NOTE (not shown to customers):
-    This page currently grants the download to anyone who lands here with any reference —
-    payment is verified client-side only, via Paystack's callback. Someone could reach this
-    page directly without paying. Before relying on this for real sales, add a server-side
-    check: call Paystack's GET /transaction/verify/:reference endpoint from a backend or
-    serverless function using your SECRET key (never expose the secret key in this file or
-    commit it to the repo), and only reveal/serve the download if verification confirms a
-    successful charge matching the expected amount.
-  -->
 
   <script>
     const params = new URLSearchParams(window.location.search);
     const ref = params.get("ref");
-    const email = params.get("email");
-    if (ref) {
-      document.getElementById("refLine").textContent = "Reference: " + ref + (email ? " · " + email : "");
-    } else {
-      document.getElementById("mainMsg").textContent =
-        "No payment reference found. If you haven't purchased yet, please go back and buy the book first.";
+
+    const titleEl = document.getElementById("mainTitle");
+    const msgEl = document.getElementById("mainMsg");
+    const spinnerEl = document.getElementById("spinner");
+    const btnEl = document.getElementById("downloadBtn");
+    const refEl = document.getElementById("refLine");
+
+    async function verify() {
+      if (!ref) {
+        spinnerEl.style.display = "none";
+        titleEl.textContent = "No payment found";
+        msgEl.textContent = "If you haven't purchased yet, please go back and buy the book first.";
+        return;
+      }
+      refEl.textContent = "Reference: " + ref;
+
+      try {
+        const res = await fetch("/api/verify?reference=" + encodeURIComponent(ref));
+        const data = await res.json();
+        spinnerEl.style.display = "none";
+
+        if (data.ok) {
+          titleEl.textContent = "Payment Received. Diagnosis Incoming.";
+          msgEl.innerHTML = "Thanks for your purchase! Your copy of <strong>The Group Chat Diagnostic Manual</strong> is ready. We've also emailed you the link.";
+          btnEl.href = data.downloadUrl;
+          btnEl.style.display = "inline-block";
+        } else {
+          titleEl.textContent = "We couldn't verify this payment";
+          msgEl.textContent = "If you just paid, wait a few seconds and refresh this page. Otherwise, contact support with the reference below.";
+        }
+      } catch (e) {
+        spinnerEl.style.display = "none";
+        titleEl.textContent = "Verification error";
+        msgEl.textContent = "Something went wrong checking your payment. Please refresh, or contact support with the reference below.";
+      }
     }
+
+    verify();
   </script>
 </body>
 </html>
