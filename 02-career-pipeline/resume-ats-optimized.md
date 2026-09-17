@@ -19,9 +19,9 @@ Social Media Management (Facebook, Instagram, YouTube, TikTok, LinkedIn, Snapcha
 
 **Experience**
 
-**Digital Marketing Strategist & Media Buyer** — Independent / Contract
-[Start] – Present
-- Managed paid social and performance marketing for e-commerce and cosmetics brands (Luscents, McDobi GLOBAL, Hopmichar), running Meta/Google campaigns from creative brief through media buy and post-campaign analysis. *[insert your real ROAS/CAC delta here before sending]*
+**Digital Marketing Strategist, Social Media Manager & Content Creator** — Caleb Marvel Enterprise / Independent
+2022 – Present
+- Managed paid social, organic social media, and content creation for e-commerce and cosmetics brands (Luscents, McDobi GLOBAL, Hopmichar) — running Meta/Google campaigns from creative brief through media buy and post-campaign analysis, alongside owning the social channels and content calendar. *[insert your real ROAS/CAC delta here before sending]*
 - Built and executed full-funnel growth strategy for Suncious Foods (FMCG), managing social channels and paid acquisition to drive [X]% follower growth and [Y]% reduction in cost-per-lead. *[insert real numbers]*
 - Ran growth and demand-gen strategy for Zonia Hub, a B2B agricultural marketplace, building lead-gen funnels and GA4/HubSpot tracking infrastructure to improve lead quality and attribution. *[insert real numbers]*
 - Developed and executed paid acquisition campaigns for James Trading Strategies in a compliance-sensitive fintech/trading-education niche, balancing performance goals with platform ad-policy constraints. *[insert real numbers]*
