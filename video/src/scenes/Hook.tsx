@@ -8,7 +8,7 @@ import {
 } from "remotion";
 import { theme } from "../theme";
 
-export const Hook: React.FC = () => {
+export const Hook: React.FC<{ text: string }> = ({ text }) => {
   const frame = useCurrentFrame();
   const { fps, width } = useVideoConfig();
 
@@ -16,6 +16,9 @@ export const Hook: React.FC = () => {
   const opacity = interpolate(frame, [0, 12], [0, 1], {
     extrapolateRight: "clamp",
   });
+
+  // Longer hooks need a smaller font so they don't overflow the frame.
+  const fontScale = text.length <= 34 ? 0.1 : text.length <= 55 ? 0.075 : 0.058;
 
   return (
     <AbsoluteFill
@@ -36,14 +39,14 @@ export const Hook: React.FC = () => {
       >
         <div
           style={{
-            fontSize: width * 0.1,
+            fontSize: width * fontScale,
             fontWeight: 900,
             color: theme.hotpink,
             lineHeight: 1.1,
             letterSpacing: -1,
           }}
         >
-          STILL TEXTING YOUR EX &ldquo;JUST IN CASE&rdquo;?
+          {text}
         </div>
       </div>
     </AbsoluteFill>

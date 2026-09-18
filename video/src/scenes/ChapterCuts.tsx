@@ -5,11 +5,13 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { theme, chapters } from "../theme";
+import { theme } from "../theme";
 
-const FRAMES_PER_CHAPTER = 20;
+export const FRAMES_PER_CHAPTER = 20;
 
-export const ChapterCuts: React.FC = () => {
+export const ChapterCuts: React.FC<{ chapters: Array<[string, string]> }> = ({
+  chapters,
+}) => {
   const frame = useCurrentFrame();
   const { width } = useVideoConfig();
 

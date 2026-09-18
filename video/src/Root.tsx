@@ -1,26 +1,36 @@
 import React from "react";
 import { Composition } from "remotion";
-import { PromoVideo, PROMO_DURATION_IN_FRAMES } from "./PromoVideo";
+import { PromoVideo, getPromoDurationInFrames } from "./PromoVideo";
+import { scripts } from "./scripts";
 
 export const Root: React.FC = () => {
   return (
     <>
-      <Composition
-        id="PromoVertical"
-        component={PromoVideo}
-        durationInFrames={PROMO_DURATION_IN_FRAMES}
-        fps={30}
-        width={1080}
-        height={1920}
-      />
-      <Composition
-        id="PromoSquare"
-        component={PromoVideo}
-        durationInFrames={PROMO_DURATION_IN_FRAMES}
-        fps={30}
-        width={1080}
-        height={1080}
-      />
+      {(Object.keys(scripts) as Array<keyof typeof scripts>).map((key) => {
+        const script = scripts[key];
+        return (
+          <React.Fragment key={key}>
+            <Composition
+              id={`PromoVertical${script.id}`}
+              component={PromoVideo}
+              durationInFrames={getPromoDurationInFrames(script)}
+              fps={30}
+              width={1080}
+              height={1920}
+              defaultProps={{ script }}
+            />
+            <Composition
+              id={`PromoSquare${script.id}`}
+              component={PromoVideo}
+              durationInFrames={getPromoDurationInFrames(script)}
+              fps={30}
+              width={1080}
+              height={1080}
+              defaultProps={{ script }}
+            />
+          </React.Fragment>
+        );
+      })}
     </>
   );
 };

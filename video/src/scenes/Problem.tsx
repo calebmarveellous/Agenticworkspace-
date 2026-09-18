@@ -7,14 +7,7 @@ import {
 } from "remotion";
 import { theme } from "../theme";
 
-const lines = [
-  "This week alone, the internet diagnosed:",
-  "situationships with no name,",
-  "boyfriends jealous of chatbots,",
-  "and a guy who split a $14.37 bill down to the cent.",
-];
-
-export const Problem: React.FC = () => {
+export const Problem: React.FC<{ lines: string[] }> = ({ lines }) => {
   const frame = useCurrentFrame();
   const { width } = useVideoConfig();
 

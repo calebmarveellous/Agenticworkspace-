@@ -10,7 +10,10 @@ import {
 } from "remotion";
 import { theme } from "../theme";
 
-export const BookReveal: React.FC = () => {
+export const BookReveal: React.FC<{ title: string; subtitle: string }> = ({
+  title,
+  subtitle,
+}) => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
 
@@ -60,7 +63,7 @@ export const BookReveal: React.FC = () => {
             lineHeight: 1.15,
           }}
         >
-          THE GROUP CHAT DIAGNOSTIC MANUAL
+          {title}
         </div>
         <div
           style={{
@@ -70,7 +73,7 @@ export const BookReveal: React.FC = () => {
             fontWeight: 500,
           }}
         >
-          The comedic self-help book for your situationship
+          {subtitle}
         </div>
       </div>
     </AbsoluteFill>

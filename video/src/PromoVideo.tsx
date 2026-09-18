@@ -3,23 +3,25 @@ import { AbsoluteFill, Sequence } from "remotion";
 import { Hook } from "./scenes/Hook";
 import { Problem } from "./scenes/Problem";
 import { BookReveal } from "./scenes/BookReveal";
-import { ChapterCuts } from "./scenes/ChapterCuts";
+import { ChapterCuts, FRAMES_PER_CHAPTER } from "./scenes/ChapterCuts";
 import { PriceCTA } from "./scenes/PriceCTA";
+import { Script, scripts } from "./scripts";
 
 export const HOOK_DURATION = 75;
 export const PROBLEM_DURATION = 90;
 export const REVEAL_DURATION = 90;
-export const CHAPTERS_DURATION = 120;
 export const CTA_DURATION = 120;
 
-export const PROMO_DURATION_IN_FRAMES =
+export const getPromoDurationInFrames = (script: Script) =>
   HOOK_DURATION +
   PROBLEM_DURATION +
   REVEAL_DURATION +
-  CHAPTERS_DURATION +
+  script.chapters.length * FRAMES_PER_CHAPTER +
   CTA_DURATION;
 
-export const PromoVideo: React.FC = () => {
+export const PromoVideo: React.FC<{ script: Script }> = ({ script }) => {
+  const chaptersDuration = script.chapters.length * FRAMES_PER_CHAPTER;
+
   let cursor = 0;
   const hookFrom = cursor;
   cursor += HOOK_DURATION;
@@ -28,26 +30,33 @@ export const PromoVideo: React.FC = () => {
   const revealFrom = cursor;
   cursor += REVEAL_DURATION;
   const chaptersFrom = cursor;
-  cursor += CHAPTERS_DURATION;
+  cursor += chaptersDuration;
   const ctaFrom = cursor;
 
   return (
     <AbsoluteFill>
       <Sequence from={hookFrom} durationInFrames={HOOK_DURATION}>
-        <Hook />
+        <Hook text={script.hook} />
       </Sequence>
       <Sequence from={problemFrom} durationInFrames={PROBLEM_DURATION}>
-        <Problem />
+        <Problem lines={script.problemLines} />
       </Sequence>
       <Sequence from={revealFrom} durationInFrames={REVEAL_DURATION}>
-        <BookReveal />
+        <BookReveal title={script.bookTitle} subtitle={script.bookSubtitle} />
       </Sequence>
-      <Sequence from={chaptersFrom} durationInFrames={CHAPTERS_DURATION}>
-        <ChapterCuts />
+      <Sequence from={chaptersFrom} durationInFrames={chaptersDuration}>
+        <ChapterCuts chapters={script.chapters} />
       </Sequence>
       <Sequence from={ctaFrom} durationInFrames={CTA_DURATION}>
-        <PriceCTA />
+        <PriceCTA
+          price={script.price}
+          note={script.priceNote}
+          cta={script.cta}
+          trustLine={script.trustLine}
+        />
       </Sequence>
     </AbsoluteFill>
   );
 };
+
+export { scripts };

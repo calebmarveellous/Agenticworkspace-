@@ -8,7 +8,12 @@ import {
 } from "remotion";
 import { theme } from "../theme";
 
-export const PriceCTA: React.FC = () => {
+export const PriceCTA: React.FC<{
+  price: string;
+  note: string;
+  cta: string;
+  trustLine: string;
+}> = ({ price, note, cta, trustLine }) => {
   const frame = useCurrentFrame();
   const { fps, width } = useVideoConfig();
 
@@ -37,7 +42,7 @@ export const PriceCTA: React.FC = () => {
             transform: `scale(${pop})`,
           }}
         >
-          {"₦5,000"}
+          {price}
         </div>
         <div
           style={{
@@ -47,7 +52,7 @@ export const PriceCTA: React.FC = () => {
             marginBottom: width * 0.06,
           }}
         >
-          {"one-time · instant PDF download"}
+          {note}
         </div>
         <div
           style={{
@@ -62,10 +67,10 @@ export const PriceCTA: React.FC = () => {
             boxShadow: "0 10px 30px rgba(232,25,91,0.5)",
           }}
         >
-          GET THE BOOK NOW
+          {cta}
         </div>
         <div style={{ marginTop: width * 0.04, fontSize: width * 0.028, color: "#999" }}>
-          Funnier than your last relationship.
+          {trustLine}
         </div>
       </div>
     </AbsoluteFill>

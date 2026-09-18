@@ -4,9 +4,13 @@
   "private": true,
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render PromoVertical out/promo-vertical.mp4",
-    "build:square": "remotion render PromoSquare out/promo-square.mp4",
-    "still": "remotion still PromoVertical out/thumbnail.png",
+    "build:a": "remotion render PromoVerticalA out/promo-vertical-a.mp4",
+    "build:b": "remotion render PromoVerticalB out/promo-vertical-b.mp4",
+    "build:c": "remotion render PromoVerticalC out/promo-vertical-c.mp4",
+    "build:all": "npm run build:a && npm run build:b && npm run build:c",
+    "build:square:a": "remotion render PromoSquareA out/promo-square-a.mp4",
+    "build:square:b": "remotion render PromoSquareB out/promo-square-b.mp4",
+    "build:square:c": "remotion render PromoSquareC out/promo-square-c.mp4",
     "upgrade": "remotion upgrade"
   },
   "dependencies": {
