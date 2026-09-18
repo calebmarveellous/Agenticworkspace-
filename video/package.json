@@ -1,0 +1,22 @@
+{
+  "name": "group-chat-diagnostic-manual-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render PromoVertical out/promo-vertical.mp4",
+    "build:square": "remotion render PromoSquare out/promo-square.mp4",
+    "still": "remotion still PromoVertical out/thumbnail.png",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.286",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.286"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.11",
+    "typescript": "5.6.3"
+  }
+}
